@@ -34,14 +34,43 @@ To get started with this project, follow these steps:
 4. **Download the Llama3 8B model**:
 
 ## Usage
-
+1.**Start WebUI**
 
 
 ![Start webui](https://github.com/user-attachments/assets/80a557ba-7ce4-4f65-8a3a-d9aa750401df)
 
 
+2.**Do fine tuning traning**
+
+![traning1](https://github.com/user-attachments/assets/364552af-f1e3-4eff-ba7b-b248f3585208)
+![traning2](https://github.com/user-attachments/assets/cc2120cc-fab2-4d0a-a40c-dbb8adf4821a)
+![traning3](https://github.com/user-attachments/assets/ecd537f1-fde6-422c-9521-6a8ba12e9f67)
 
 
+3.**Load checkpoint to evaulate, set max token to 1**
+
+![eval1](https://github.com/user-attachments/assets/cb069660-71eb-4305-8e63-44d610e68a8c)
+![eval2](https://github.com/user-attachments/assets/da3f9395-0cc9-49cc-9dbd-a2e6989cc55a)
+![eval3](https://github.com/user-attachments/assets/10e33f86-72cc-46da-897b-21a90712bf8d)
+
+
+4.**Test Chatbot**
+![chat](https://github.com/user-attachments/assets/cd9b7941-c904-4ff9-8373-1a309a9aa9d5)
+
+
+
+5.**Export Model**
+
+![model](https://github.com/user-attachments/assets/13f9e096-cda0-48f1-8030-c74afec4daf5)
+
+
+
+6.**Load Model and chat**
+![chat2](https://github.com/user-attachments/assets/28983f9e-a3fb-40bf-8f17-1758348db6b7)
+
+
+7.**Use the new model to evaluate Nazario dataset, it does good**
+![eval_model](https://github.com/user-attachments/assets/fb01f32a-6e16-4789-b19b-e681c0d7d57b)
 
 
 ## Results
