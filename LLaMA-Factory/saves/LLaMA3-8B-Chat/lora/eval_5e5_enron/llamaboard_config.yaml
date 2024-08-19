@@ -1,0 +1,20 @@
+eval.batch_size: 2
+eval.cutoff_len: 1024
+eval.dataset:
+- enron_test
+eval.dataset_dir: /root/LLaMA-Factory/data
+eval.max_new_tokens: 1
+eval.max_samples: '100000'
+eval.output_dir: eval_5e5_enron
+eval.predict: true
+eval.temperature: 0.95
+eval.top_p: 0.7
+top.booster: none
+top.checkpoint_path:
+- 5e5_3ep
+top.finetuning_type: lora
+top.model_name: LLaMA3-8B-Chat
+top.quantization_bit: none
+top.rope_scaling: none
+top.template: llama3
+top.visual_inputs: false

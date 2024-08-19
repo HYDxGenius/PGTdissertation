@@ -1,0 +1,17 @@
+{
+  "sms_test": {
+    "file_name": "../../Data/test_data_sms.json"
+  },
+  "sms_train": {
+    "file_name": "../../Data/training_data_sms.json"
+  },
+  "enron_test": {
+    "file_name": "../../Data/test_data_enron.json"
+  },
+  "enron_train": {
+    "file_name": "../../Data/training_data_enron.json"
+  },
+  "Nazario": {
+    "file_name": "../../Data/Nazario.json"
+  }
+}
