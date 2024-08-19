@@ -15,13 +15,13 @@ def load_data_from_json(file_path):
             if predict in ['spam', 'ham']:
                 predictions.append(predict)
             else:
-                predictions.append('invalid')  # 将无效预测标记为'invalid'
+                predictions.append('invalid')  # mark 'invalid'
                 invalid_predictions.append(data)
     
     return labels, predictions, invalid_predictions
 
 def calculate_metrics(labels, predictions):
-    # 去掉无效预测的样本
+    # delete invalid file
     valid_labels = [label for label, pred in zip(labels, predictions) if pred != 'invalid']
     valid_predictions = [pred for pred in predictions if pred != 'invalid']
     
@@ -33,7 +33,7 @@ def calculate_metrics(labels, predictions):
     return accuracy, precision, recall, f1
 
 def main():
-    file_path = 'C:\\Users\\76922\Desktop\\dissertation\\LLaMA-Factory\\src\\saves\\LLaMA3-8B-Chat\\lora\\eval_5e5_enron\generated_predictions.jsonl'  # 替换为你的JSON文件路径
+    file_path = '\\path\\to\\generated_predictions.jsonl'  # generated_predictions.jsonl file path
     labels, predictions, invalid_predictions = load_data_from_json(file_path)
     
     accuracy, precision, recall, f1 = calculate_metrics(labels, predictions)
