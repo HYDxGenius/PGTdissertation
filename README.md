@@ -37,6 +37,13 @@ To get started with this project, follow these steps:
 
 
 
+![Start webui](https://github.com/user-attachments/assets/80a557ba-7ce4-4f65-8a3a-d9aa750401df)
+
+
+
+
+
+
 ## Results
 
 The fine-tuned Llama3 8B model achieved the following performance metrics:
