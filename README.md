@@ -35,8 +35,7 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-4. **Test the model**:
-    - Use the `test_model.py` script to test the fine-tuned model on unseen data.
+
 
 ## Results
 
